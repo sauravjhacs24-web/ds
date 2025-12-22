@@ -27,14 +27,14 @@ int main() {
         }
     }
 
-    // Initialize visited array
+
     for (int i = 0; i < n; i++)
         visited[i] = 0;
 
-    // Start DFS from vertex 0
+    
     DFS(0);
 
-    // Check if all vertices are visited
+
     for (int i = 0; i < n; i++) {
         if (!visited[i]) {
             connected = 0;
@@ -49,3 +49,4 @@ int main() {
 
     return 0;
 }
+
